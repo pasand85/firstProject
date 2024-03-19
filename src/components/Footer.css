@@ -1,0 +1,8 @@
+.footBar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(142, 86, 86);
+    padding:5px;
+    color: rgb(216, 216, 216);
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(198, 175, 220);
+}
+
+.allMovies {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.yesNoBtn {
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    background-color: rgba(228, 32, 32, 0.5);
+    border-radius: 0.5rem;
+}
+
+.yesNoBtn:hover {
+    background-color: rgba(228, 32, 32, 0.75);
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(198, 175, 220);
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(142, 86, 86);
+    padding:5px;
+    color: rgb(216, 216, 216);
+}
+
+.navBar > h2 {
+    margin-right: auto;
+    margin-left: 15px;
+}
+.navBar >  h4 {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(127, 255, 212, 0.4);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 8rem;
+    max-width: 8rem;
+}
+
+.menuItems {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: rgb(207, 207, 214);
+
+}
